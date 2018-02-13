@@ -32,7 +32,7 @@ public class Sorting {
 		if(isSorted){
 			System.out.println("The sorted array is: ");
 			System.out.println(Arrays.toString(arr)); //Thanks Java 5 for adding this 
-		}else if(!isSorted){
+		}else{
 			System.out.println("The unsorted array is: ");
 			System.out.println(Arrays.toString(arr));
 		}
